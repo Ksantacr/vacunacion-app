@@ -1,0 +1,49 @@
+{
+  "employees": [
+    {
+      "identificationCard": "0981855256",
+      "fname": "Kevin",
+      "lname": "Santacruz",
+      "email": "kevin.santacruz@gmail.es",
+      "birthday": "1994-02-17",
+      "address": "Florida Norte",
+      "phone": "098193287",
+      "isVaccinated": true,
+      "vaccineType": "Sputnik",
+      "vaccinationdDate": "2022-01-09",
+      "dose": "3",
+      "role": "",
+      "id": "0981855256"
+    },
+    {
+      "identificationCard": "0352492247",
+      "fname": "Melina",
+      "lname": "Yagual",
+      "email": "myagual@edu.ec",
+      "birthday": "",
+      "address": "",
+      "phone": "",
+      "isVaccinated": false,
+      "vaccineType": "",
+      "vaccinationdDate": "",
+      "dose": 0,
+      "role": "",
+      "id": "0352492247"
+    },
+    {
+      "identificationCard": "0952492237",
+      "fname": "Meli",
+      "lname": "Yagual",
+      "email": "yagual.m@fef.ec",
+      "birthday": "",
+      "address": "",
+      "phone": "",
+      "isVaccinated": false,
+      "vaccineType": "",
+      "vaccinationdDate": "",
+      "dose": 0,
+      "role": "",
+      "id": "0952492237"
+    }
+  ]
+}
