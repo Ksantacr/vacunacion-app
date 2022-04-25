@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import { Route, Routes } from "react-router-dom";
+import Navigate from "./Navigate";
+import CreateUser from "./Components/Users/CreateUser";
+import UpdateUser from "./Components/Users/UpdateUser";
+import UserList from "./Components/Users/UsersList";
+import EmployeeList from "./Components/Employees/EmployeeList"
+import UpdateEmployee from "./Components/Employees/UpdateEmployee"
+export default function App(){
+   return (
+    <div>
+    <Navigate></Navigate>
+    <Routes>
+      <Route path="/" element={<UserList />} />
+      <Route path='/create' element={<CreateUser />} />
+      <Route path='/update/:id' element={<UpdateUser />}/>
+      <Route path='/employees' element={<EmployeeList />}/>
+      <Route path='/employees/:id' element={<UpdateEmployee />}/>
+    </Routes>
+  </div>
+   )
 }
-
-export default App;
